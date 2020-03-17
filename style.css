@@ -1,0 +1,806 @@
+*
+{
+    margin: 0px ;
+    padding: 0px;
+}
+
+body
+{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+#header
+{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(25,25,112);
+    font-family: Helvetica, sans-serif;
+}
+
+#left-div
+{
+    float:left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 5px;
+}
+
+#right-div
+{
+    float: right;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 5px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#parent-div
+{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+#menu-div
+{
+    float: left;
+    border-right: 2px solid  rgb(25,25,112);
+    box-shadow: 3px 1px 15px rgba(25, 25, 112, 0.527);
+    height: 1100px;
+    width: 25%;
+    background-color: #EB984E ;
+}
+
+#menu-div ul li
+{
+    display: block;
+    text-align: center;
+    padding: 25px;
+    margin-left:5px ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Helvetica;
+    border-bottom: 3px solid white;
+    width: 280px;
+}
+#menu-div ul li>a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#menu-div ul li:hover,#menu-div ul li>a:hover
+{
+    border-bottom-color: rgb(25,25,112);
+    color:  rgb(25,25,112);
+}
+
+#main-div
+{
+    float: left;
+    height: 612px;
+    width:74.8%;
+}
+
+#priya-logo
+{
+    height: 40px;
+    width: 40px;
+    border: 12px double brown;
+    font-family:Helvetica;
+    text-align: center;
+    line-height: 40px;
+    padding:5px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -4px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    box-shadow: 3px 3px 4px rgb(204, 95, 95);
+}
+
+#priya-logo a
+{
+    text-decoration: none;
+}
+#priya-logo:hover
+{
+    border: 12px double rgb(25,25,112);
+    box-shadow: 3px 3px 4px rgba(25, 25, 112, 0.527);
+}
+
+#page-title
+{
+    float: left;
+    width: 800px;
+    height:auto;
+    text-align: center;
+    font-family: Helvetica;
+    color: brown;
+    padding: 25px;
+    text-shadow: 3px 3px 10px rgb(204, 95, 95);
+    font-size: 40px;
+    font-weight: bold;
+}
+/*----------------------- Index Page Code Start-------------------------------------------- */
+#name-photo
+{
+    width: 98%;
+    height: 505px;
+    border: 2px solid transparent;
+    margin: 10px;
+    background-image: url('images/background-image1.png'),url('images/background-image2.png');
+    background-position:left bottom, right bottom;
+    background-repeat: no-repeat,no-repeat;
+    background-size:900px,500px;
+    background-origin: border-box;
+}
+#title-div
+{
+    float: left;
+    border: 2px solid transparent;
+    width: 49.4%;
+    height: 500px;
+}
+#photo-div
+{
+
+    border: 2px solid transparent;
+    float: left;
+    width: 49.6%;
+    height: 500px;
+}
+
+.box {
+    width: 60px;
+    height: auto;
+    background-color: brown;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    float: left;
+    border-radius:5px;
+    text-align:center;
+    font-family: Helvetica;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.box.arrow-bottom:after 
+{
+    content: " ";
+    position: absolute;
+    right:0px;
+    top:16px;
+    bottom: 10px;
+    border-top: 15px solid transparent;
+    border-right: 20px solid brown;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+   
+}
+.box, .box.arrow-bottom
+{
+    box-shadow: 3px 3px 7px rgb(204, 95, 95);
+}
+#nametitlediv #p1
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: rgb(25,25,112);
+    width: 260px;
+    text-shadow: 2px 2px 12px rgba(25, 25, 112, 0.527);
+    /* border-bottom: 2px solid rgb(25,25,112); */
+}
+
+#nametitlediv #p2
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 135px;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #EB984E;
+    width: 220px;
+    text-shadow: 2px 2px 12px  rgb(240, 166, 101);
+    /* border-bottom: 2px solid #EB984E; */
+}
+
+#nametitlediv #p3
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: brown;
+    width: 400px;
+    padding: 1px;
+    text-shadow: 2px 2px 12px  rgb(204, 95, 95);
+    /* border-bottom: 2px solid #EB984E; */
+}
+
+#priya-photo
+{
+    text-align: center;
+  
+}
+#priya-photo>img
+{
+    border: 5px ridge rgb(25,25,112);
+    box-shadow: 5px 5px 4px rgba(25, 25, 112, 0.527);
+}
+/*------------------------------Index Page Closes here---------------------------*/
+
+/*------------------------------Contact Me Page Code start---------------------------*/
+
+#contact-img
+{
+    text-align: center;
+}
+#contact-img>img
+{
+    width: 500px;
+    height: 200px;
+}
+
+#contact-details-flex
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#flex-div-class1,#flex-div-class2,#flex-div-class3
+{
+    width: 298px;
+    height: 130px;
+    background-color: white;
+}
+
+#flex-div-class1
+{
+    text-align: center;
+}
+#flex-div-class2
+{
+    text-align: center;
+}
+#flex-div-class3
+{
+    text-align: center;
+    line-height: 25px;
+}
+.logo-images
+{
+    border: 2px solid rgb(25,25,112);
+    display:inline-block;
+    padding: 6px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 4px rgba(25, 25, 112, 0.527);
+}
+.logo-images>img
+{
+    width: 20px;
+    height: 20px;
+}
+.personal-details
+{
+    font-size: 18px;
+    padding: 15px;
+    font-family:Helvetica;
+
+}
+
+#form-location
+{
+    width: 100%;
+    height: auto;
+    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:center ;
+}
+.form-location-flex
+{
+    width: 470px;
+    height: auto;
+    border: 1px solid transparent;
+    background-color: white;
+}
+#send-message
+{
+    margin: 10px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: bold;
+    width: 170px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(25,25,112);
+}
+
+.input-div
+{
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 400px;
+    border-radius: 30px;
+    border:2px solid rgb(25,25,112);
+    font-size: 18px;
+    font-family:Helvetica;
+}
+.input-div1
+{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    width: 400px;
+    border:2px solid rgb(25,25,112);
+    font-size: 18px;
+    font-family:Helvetica;
+}
+.input-div2
+{
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgb(25,25,112);
+    font-size: 18px;
+    color: white;
+    font-family:Helvetica;
+    box-shadow: 2px 2px 4px rgba(25, 25, 112, 0.527);
+}
+input:hover,textarea:hover
+{
+    border: 2px solid rgb(204, 95, 95);
+}
+
+button:hover
+{
+    background-color: brown;
+    box-shadow: 2px 2px 4px rgb(240, 166, 101);
+}
+/*------------------------------contact Page Closes here---------------------------*/
+/*------------------------------About Me Page Code start---------------------------*/
+#about-me
+{
+    width: 900px;
+    height: auto;
+    text-align: justify;
+    line-height: 35px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #999999;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+/*------------------------------About Me Page closes here---------------------------*/
+/*------------------------------Education Details Page Start---------------------------*/
+#education-details
+{
+    width: 98%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    font-family: Helvetica;
+}
+.edu-det
+{
+    width: 450px;
+    height: auto;
+    background-color: transparent;
+    padding: 20px;
+    border: 2px solid transparent;
+}
+#edu-title
+{
+    font-size: 22px;
+    padding: 10px;
+    font-weight: bold;
+}
+#passout-year
+{
+    font-size:18px;
+}
+#school-name
+{
+    padding: 5px;
+}
+/*------------------------------Education Details Page closes here---------------------------*/
+
+/*--------------------------------------Skills Page start-------------------------------------------------*/
+#name-photo1
+{
+    width: 95%;
+    height:auto;
+   display: flex;
+   margin-left: 30px;
+   flex-wrap: wrap;
+   margin-bottom: 100px;
+}
+#title-div1
+{
+    border: 2px solid transparent;
+    width: 49.4%;
+    background-color: white;
+    height: 500px;
+}
+#photo-div1
+{
+
+    border: 2px solid transparent;
+    width: 49.6%;
+    background-color: white;
+    height: 500px;
+}
+#send-message1
+{
+    margin: 30px;
+    margin-left: 60px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    width: 230px;
+    color: rgb(25,25,112);
+    border-bottom: 2px solid rgb(25,25,112);
+}
+
+#send-message2
+{
+    margin: 30px;
+    margin-left: 60px;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    width: 170px;
+    color: rgb(240, 166, 101);
+    border-bottom: 2px solid rgb(240, 166, 101);
+}
+#tech-skills ul li
+{
+    margin-left: 80px;
+    padding: 10px;
+    font-size: 18px;
+    font-family:Helvetica;
+    color: #999999;
+}
+#others-skills
+{
+    width: 100%;
+    height: auto;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+.os-div1
+{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    border: 2px solid transparent;
+}
+.os-img>img
+{
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 5px;
+}
+.os-name
+{
+    padding: 10px;
+    font-size:18px;
+    font-weight: bold;
+    font-family:Helvetica;
+    color: #999999;
+}
+/*--------------------------------------Skills page closes here-------------------------------------------*/
+
+/*--------------------------------------My Projects Page start-------------------------------------------------*/
+#name-photo2
+{
+    width: 95%;
+    height:auto;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+#title-div2
+{
+    border: 2px solid transparent;
+    width: 49.4%;
+    background-color: white;
+    height: 150px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#project-details
+{
+    width:280px;
+    height: 145px;
+    padding: 10px;
+}
+#project-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Helvetica;
+    border-bottom: 2px solid rgb(25,25,112);
+    width: 160px;
+    color: rgb(25,25,112);
+}
+#website-title
+{
+    font-size: 16px;
+    font-family:Helvetica;
+    padding-top: 10px;
+}
+#project-img
+{
+    width: 160px;
+    height: 145px;
+}
+#project-img>img
+{
+    width: 150px;
+    height: 145px;
+    border: 2px solid rgb(25,25,112);
+}
+/*-----------------------------My Projects Page closes here----------------------------------------------------*/
+/*----------------------------- Page1 page start----------------------------------------------------*/
+
+#name-photo3
+{
+    width: 94%;
+    height: auto;
+    border: 2px solid transparent;
+    margin-left: 50px;
+    margin-top:30px;
+    margin-bottom: 100px;
+}
+button
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(25,25,112);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.images-responsive1
+{
+    max-width: 100%;
+    height: auto;
+}
+
+/*----------------------------- Page1 page code closes here----------------------------------------------------*/
+@media screen and (min-width:680px)
+{
+    #social-media
+    {
+        display: none;
+    }
+}
+@media screen and (max-width:680px)
+{
+    body{
+        box-sizing: border-box;
+    }
+    #header
+    {
+        display: none;
+    }
+    #menu-div
+    {
+        height: auto;
+        width: 100%;
+
+    }
+    #page-title
+    {
+        text-align: center;
+        width: 250px;
+        height: auto;
+        margin-top: -80px;
+        margin-left: 120px;
+        float: left;
+    }
+    .clear
+    {
+        clear: both;
+    }
+    /*----------------------------------Tndex Page code start-------------------*/
+    .responsive {
+        width: 100%;
+        height: auto;
+      }
+    #menu-div ul li
+    {
+        width: 88%;
+    }
+    #name-photo
+    {
+        background-image: none;
+    }
+
+    #title-div, #photo-div
+    {
+        height: auto;
+    }
+
+    #photo-div
+    {
+        margin-top:50px;
+        margin-left: 50px;
+    }
+    #priya-photo
+    {
+        margin-bottom: 100px;
+    }
+   
+      .clear
+    {
+        clear: both;
+    }
+    #social-media
+    {
+        width: 100%;
+        height: auto;
+        background-color: rgb(25,25,112);
+        position: fixed;
+        bottom: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .flex-div
+    {
+        width: 40px;
+        height: 40px;
+        border: 2px solid red;
+        background-color: white;
+        text-align: center;
+        border-radius: 100%;
+        
+    }
+    .flex-div #img1
+    {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .flex-div #img2
+    {
+        width: 39px;
+        height: 39px;
+    }
+    .flex-div #img3
+    {
+        width: 38px;
+        height: 38px;
+        border-radius: 100%;
+    }
+    .flex-div #img4
+    {
+        width: 40px;
+        height: 38px;
+        border-radius: 100%;
+    }
+    .flex-div #img5
+    {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+    .flex-div #img6
+    {
+        width: 39px;
+        height: 39px;
+        border-radius: 100%;
+    }
+/*--------------------------------------Index page closes here---------------------------------------*/
+/*---------------------------------Contact page code start--------------------------------------------*/
+
+#contact-img>img
+{
+    width: 100%;
+    height: auto;
+    margin-left: 60px;
+}
+#contact-details-flex
+{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+#flex-div-class1,#flex-div-class2,#flex-div-class3
+{
+    height: auto;
+}
+#form-location
+{
+    margin-bottom: 60px;
+    margin-left: 65px;
+    
+}
+.form-location-flex
+{
+    margin: 20px;
+}
+
+/*--------------------------------------contact page closes here---------------------------------------*/
+/*--------------------------------------About Me Page start---------------------------------------*/
+#about-me
+{
+    width: 100%;
+    height: auto;
+}
+/*--------------------------------------About Me page closes here---------------------------------------*/
+/*--------------------------------------Education Details page Start--------------------------------*/
+#education-details
+{
+    width:100%;
+    height: auto;
+    margin-left:60px;
+    margin-bottom: 50px;
+}
+/*--------------------------------------Education Details page closes here--------------------------------*/
+/*--------------------------------------Skills Page start-------------------------------------------------*/
+#name-photo1
+{
+    margin-left: 60px;
+}
+#title-div1,#photo-div1
+{
+    width: 100%;
+    height: auto;
+}
+#others-skills
+{
+    display: block;
+    width: 250px;
+    margin-left: 40px;
+}
+
+/*--------------------------------------Skills page closes here-------------------------------------------*/
+}
